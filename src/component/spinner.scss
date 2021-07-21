@@ -1,0 +1,39 @@
+#Spinner {
+    position: absolute;
+    z-index: 500;
+    height: 100%;
+    width: 100%;
+
+    .percent {
+        font-family: Arial black, Helvetica, sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .spinner {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: 0;
+        height: 31px;
+        width: 32px;
+        background-image: url("../../static/img/star.png");
+        background-position: center;
+        background-size: cover;
+        animation: 1s linear infinite spinner;
+    }
+}
+
+@keyframes spinner {
+    0% {
+        transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+        transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+}

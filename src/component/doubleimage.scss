@@ -1,0 +1,22 @@
+#DoubleImage {
+    width: 100%;
+    height: 100%;
+
+    .first {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+
+    .second {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        height: 100%;
+        width: 50%;
+        float: right;
+    }
+}

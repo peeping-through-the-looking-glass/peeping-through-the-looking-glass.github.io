@@ -1,0 +1,46 @@
+#Navigation {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    text-align: center;
+    z-index: 1000;
+
+    .link {
+        overflow-y: hidden;
+        display: inline-block;
+        vertical-align: top;
+        position: absolute;
+        overflow-y: hidden;
+        display: inline-block;
+        animation: marquee 30s linear infinite;
+        line-height: 0.7;
+        filter: blur(5px);
+
+        span {
+            white-space: nowrap;
+            color: #ffffff;
+            font-family: arial black;
+            text-transform: uppercase;
+            font-size: 70px;
+            padding: 0px 5px 0px;
+            float: left;
+            width: 50%;
+        }
+    }
+
+    .link:hover {
+        cursor: pointer;
+        filter: blur(0);
+    }
+
+    @keyframes marquee {
+        0% {
+            left: 0;
+        }
+        100% {
+            left: -100%;
+        }
+    }
+}

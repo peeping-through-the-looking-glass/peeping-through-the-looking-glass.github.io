@@ -1,0 +1,18 @@
+{
+    "en": {
+        "legal": "Legal",
+        "contact": "Contact",
+        "information": "Information",
+        "about": "About",
+        "more": "more",
+        "less": "less"
+    },
+    "fr": {
+        "legal": "Mentions Legales",
+        "contact": "Contact",
+        "information": "Information",
+        "about": "A propos",
+        "more": "plus",
+        "less": "moins"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "name": "set-studio",
+    "short_name": "set-studio",
+    "icons": [{
+        "src": "favicon.svg",
+        "sizes": "512x512"
+    }],
+    "display": "fullscreen"
+}

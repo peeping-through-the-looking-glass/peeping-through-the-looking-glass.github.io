@@ -1,0 +1,31 @@
+#Stack {
+    width: 100%;
+    height: calc(100% - 50px);
+    overflow-x: hidden;
+
+    .rack {
+        width: 100%;
+        text-align: center;
+
+        .item {
+            margin: 0 auto;
+            text-align: center;
+            background-position: center center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            transform: scaleX(10);
+            filter: blur(11px);
+        }
+    }
+
+    .rack:hover {
+        .item {
+            -webkit-transition: 0.06s ease-in-out;
+            -moz-transition: 0.06s ease-in-out;
+            -o-transition: 0.06s ease-in-out;
+            transition: 0.06s ease-in-out;
+            transform: scaleX(1);
+            filter: blur(0px);
+        }
+    }
+}

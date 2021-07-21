@@ -1,0 +1,15 @@
+.normal {
+	font-size: 12px;
+}
+
+@media screen and (min-width: 400px) {
+	.normal {
+		font-size: 14px;
+		font-size: calc( 12px + ( ( 24 - 12 ) * (100vw - 400px) / (1200 - 400)));
+	}
+}
+@media screen and (min-width: 1200px) {
+	.normal {
+		font-size: 24px;
+	}
+}

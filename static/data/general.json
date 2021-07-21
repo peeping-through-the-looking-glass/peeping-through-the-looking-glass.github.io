@@ -1,0 +1,11 @@
+{
+    "name": "Plexiglas",
+    "url": "https://plexi.setstudio.uk",
+    "support": {
+        "author": "Martin Cabrol",
+        "version": "0.0.1",
+        "licence": "Creative Commons",
+        "year": "2021",
+        "protocol": "HTTPS"
+    }
+}
